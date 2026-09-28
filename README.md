@@ -1,4 +1,4 @@
-# 明 浩 — Senior AI Engineer · Portfolio
+# Senior AI Engineer · Portfolio
 
 A single-page portfolio built from the resume. No build step, no dependencies,
 no external network requests — open `index.html` and it runs.
