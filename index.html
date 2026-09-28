@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Jaheem Pickens — Senior AI Engineer</title>
+  <meta name="description"
+    content="Senior AI Engineer with 8+ years of experience developing AI applications, backend systems, and software products. Experienced in LLM-based solutions, RAG pipelines, multi-model orchestration, and AI safety systems." />
+  <meta name="theme-color" content="#08090c" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Jaheem Pickens — Senior AI Engineer" />
+  <meta property="og:description" content="Senior AI Engineer — multi-model orchestration, RAG, AI safety, backend systems, Python, FastAPI, Node.js." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230a0b0f'/><text x='50' y='68' font-size='52' font-family='Georgia,serif' fill='%235eead4' text-anchor='middle'>A</text></svg>" />
+</head>
+
+<body>
+
+  <!-- ══════════════════════════════════════════════════════════
+     INTRO — 3s "impact of AI" sequence
+     ══════════════════════════════════════════════════════════ -->
+  <div id="intro" aria-hidden="true">
+    <canvas id="intro-canvas"></canvas>
+    <div class="intro-caption">
+      <span class="intro-line" data-phase="1">Unstructured data</span>
+      <span class="intro-line" data-phase="2">Inference</span>
+      <span class="intro-line" data-phase="3">Decisions in production</span>
+    </div>
+    <button class="intro-skip" type="button">Skip intro <kbd>esc</kbd></button>
+    <div class="intro-progress"><i></i></div>
+  </div>
+
+  <!-- Ambient background -->
+  <div class="bg" aria-hidden="true">
+    <div class="bg-aurora"></div>
+    <div class="bg-grid"></div>
+    <div class="bg-vignette"></div>
+    <div class="bg-noise"></div>
+  </div>
+
+  <header class="nav" id="nav">
+    <a class="nav-mark" href="#top">
+      <span class="nav-mark-glyph">JP</span>
+      <span class="nav-mark-text">Jaheem Pickens<em>Senior AI Engineer</em></span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#stack">Stack</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="mailto:Goodnewsbrother7@gmail.com">
+      <span class="dot"></span> Open to new opportunities
+    </a>
+  </header>
+
+  <main id="top">
+
+    <!-- ══════════════════════════════════════════════════════════
+     HERO
+     ══════════════════════════════════════════════════════════ -->
+    <section class="hero" id="hero">
+
+      <div class="hero-stage" id="hero-stage">
+        <canvas id="product-canvas" class="hero-product"></canvas>
+        <canvas id="lens-canvas" class="hero-lens-glass" aria-hidden="true"></canvas>
+        <div class="hero-lens-fringe" aria-hidden="true"></div>
+        <div class="hero-lens-ring" aria-hidden="true"></div>
+        <div class="hero-scan" aria-hidden="true"></div>
+
+        <div class="hero-veil">
+          <h1 class="hero-title" aria-label="Senior AI Engineer">
+            <span class="hero-title-line"><span class="glyphs" data-text="Senior">Senior</span></span>
+            <span class="hero-title-line"><span class="glyphs" data-text="AI Engineer">AI Engineer</span></span>
+          </h1>
+          <p class="hero-hint" aria-hidden="true">
+            <span class="hero-hint-cursor"></span> Roll the lens — there's a system underneath
+          </p>
+        </div>
+      </div>
+
+      <div class="hero-copy">
+        <p class="hero-lede">
+          Senior AI Engineer with 8+ years of experience building scalable AI systems,
+          backend infrastructure, and full-stack products — from initial development
+          through enterprise and SaaS production at scale.
+        </p>
+        <div class="hero-meta">
+          <span>Available for new opportunities</span><i></i>
+          <span>8+ years experience</span><i></i>
+          <span>LLM · RAG · AI Safety · FullStack</span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work" data-deck="router">See the systems
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn" href="mailto:Goodnewsbrother7@gmail.com">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-strip" aria-hidden="true">
+        <div class="hero-strip-track">
+          <span>Large Language Models</span><i>◇</i>
+          <span>Retrieval-Augmented Generation</span><i>◇</i>
+          <span>Multi-Model Routing</span><i>◇</i>
+          <span>Model Evaluation</span><i>◇</i>
+          <span>AI Safety</span><i>◇</i>
+          <span>Observability</span><i>◇</i>
+          <span>Prompt Engineering</span><i>◇</i>
+          <span>Distributed Systems</span><i>◇</i>
+          <span>Large Language Models</span><i>◇</i>
+          <span>Retrieval-Augmented Generation</span><i>◇</i>
+          <span>Multi-Model Routing</span><i>◇</i>
+          <span>Model Evaluation</span><i>◇</i>
+          <span>AI Safety</span><i>◇</i>
+          <span>Observability</span><i>◇</i>
+          <span>Prompt Engineering</span><i>◇</i>
+          <span>Distributed Systems</span><i>◇</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════
+     IMPACT STATS
+     ══════════════════════════════════════════════════════════ -->
+    <section class="impact" id="impact">
+      <ul class="stats" role="list">
+        <li class="reveal">
+          <b data-count="8" data-suffix="+">0</b>
+          <span>Years in software engineering &amp; AI application development</span>
+        </li>
+        <li class="reveal">
+          <b data-count="1" data-suffix="M+">0</b>
+          <span>Users supported across enterprise and SaaS production environments</span>
+        </li>
+        <li class="reveal">
+          <b data-count="5" data-suffix="">0</b>
+          <span>Core runtimes: Python, Node.js, React, FastAPI, Spring Boot</span>
+        </li>
+        <li class="reveal">
+          <b data-count="3" data-suffix="">0</b>
+          <span>Distributed systems: microservices, event-driven, async processing</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════
+     ABOUT
+     ══════════════════════════════════════════════════════════ -->
+    <section class="section about" id="about">
+      <div class="section-head">
+        <span class="eyebrow">01 — About</span>
+        <h2 class="section-title">A senior AI engineer who architects <em>scalable AI systems end-to-end</em> — from model to infrastructure to UI.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-body reveal">
+          <p>
+            I'm a Senior AI Engineer with 8+ years of experience building scalable AI systems,
+            backend infrastructure, and software products for enterprise and SaaS environments
+            supporting 1M+ users.
+          </p>
+          <p>
+            My focus is on the hard parts of production AI: multi-model routing and orchestration,
+            evaluation and observability frameworks, AI safety controls, and inference performance
+            at scale. I work across Python, FastAPI, Node.js, Java (Spring Boot), .NET Core,
+            and React — end-to-end, from the model layer to the UI.
+          </p>
+          <p>
+            I've built RAG pipelines with embeddings and semantic search, implemented prompt
+            injection detection and output filtering, and improved inference throughput through
+            caching, batching, and distributed execution — all in production, not just prototypes.
+          </p>
+        </div>
+        <aside class="about-side reveal">
+          <h3>What I Work On</h3>
+          <ul role="list">
+            <li>Multi-model routing &amp; orchestration</li>
+            <li>RAG pipelines and semantic search</li>
+            <li>Evaluation, benchmarking &amp; observability</li>
+            <li>AI safety — injection detection, output filtering</li>
+            <li>Inference performance &amp; distributed execution</li>
+            <li>Backend APIs and microservices</li>
+            <li>React / Next.js frontend development</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════
+     WORK — capability case studies
+     ══════════════════════════════════════════════════════════ -->
+    <section class="section work" id="work">
+      <div class="section-head">
+        <span class="eyebrow">02 — Key Systems</span>
+        <h2 class="section-title">AI and software systems I've built and shipped.</h2>
+        <p class="section-sub">
+          Five production capabilities built across LLM integration, RAG, evaluation, safety, and
+          performance. Every card is a live console screenshot — open full-screen for details.
+        </p>
+      </div>
+
+      <div class="cards">
+
+        <article class="card card-lg reveal" data-accent="teal">
+          <div class="card-visual" data-shot="router" aria-hidden="true"></div>
+          <button class="card-shot-open" type="button" data-deck="router">
+            Open console
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M14 4h6v6M20 4l-8 8M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>
+            </svg>
+          </button>
+          <div class="card-body">
+            <span class="card-tag">Orchestration</span>
+            <h3>Atlas — Multi-Model Routing Engine</h3>
+            <p>
+              A routing layer that selects the right language model per request based on cost,
+              latency, and quality targets. Built to reduce inference costs while maintaining
+              response quality for SaaS applications.
+            </p>
+            <ul class="card-points" role="list">
+              <li>Dynamic model selection scored on cost, latency, and eval quality</li>
+              <li>Provider fallback and circuit breakers on upstream failures</li>
+              <li>Per-route telemetry for cost and quality monitoring</li>
+            </ul>
+            <div class="card-stack">
+              <span>Python</span><span>FastAPI</span><span>Redis</span>
+              <span>LLM APIs</span><span>Kubernetes</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card-lg reveal" data-accent="violet">
+          <div class="card-visual" data-shot="rag" aria-hidden="true"></div>
+          <button class="card-shot-open" type="button" data-deck="rag">
+            Open console
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M14 4h6v6M20 4l-8 8M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>
+            </svg>
+          </button>
+          <div class="card-body">
+            <span class="card-tag">Retrieval · Search</span>
+            <h3>Corpus — RAG Application</h3>
+            <p>
+              A Retrieval-Augmented Generation application built with embeddings, vector databases,
+              and semantic search to improve the quality and accuracy of AI responses over enterprise
+              knowledge bases.
+            </p>
+            <ul class="card-points" role="list">
+              <li>Embedding and indexing pipeline for enterprise corpora</li>
+              <li>Semantic search tuned for retrieval accuracy</li>
+              <li>Grounded generation with source attribution</li>
+            </ul>
+            <div class="card-stack">
+              <span>Python</span><span>FastAPI</span><span>PostgreSQL</span>
+              <span>Redis</span><span>Vector DB</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card reveal" data-accent="amber">
+          <div class="card-visual" data-shot="eval" aria-hidden="true"></div>
+          <button class="card-shot-open" type="button" data-deck="eval">
+            Open console
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M14 4h6v6M20 4l-8 8M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>
+            </svg>
+          </button>
+          <div class="card-body">
+            <span class="card-tag">Evaluation</span>
+            <h3>Assay — AI Output Quality &amp; Testing</h3>
+            <p>
+              Workflows and tooling to test AI output quality and improve system accuracy over time.
+              Covers prompt evaluation, regression testing, and consistency checks across model updates.
+            </p>
+            <div class="card-stack">
+              <span>Python</span><span>pytest</span><span>A/B testing</span>
+              <span>Experiment tracking</span><span>GitHub Actions</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card reveal" data-accent="rose">
+          <div class="card-visual" data-shot="safety" aria-hidden="true"></div>
+          <button class="card-shot-open" type="button" data-deck="safety">
+            Open console
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M14 4h6v6M20 4l-8 8M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>
+            </svg>
+          </button>
+          <div class="card-body">
+            <span class="card-tag">Safety</span>
+            <h3>Sentinel — AI Safety Layer</h3>
+            <p>
+              Safety measures applied at the service boundary — prompt-injection detection, response
+              checking, and output filtering to make AI systems more secure and reliable.
+            </p>
+            <div class="card-stack">
+              <span>Python</span><span>FastAPI</span>
+              <span>Classifier rules</span><span>Redis</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card reveal" data-accent="sky">
+          <div class="card-visual" data-shot="latency" aria-hidden="true"></div>
+          <button class="card-shot-open" type="button" data-deck="latency">
+            Open console
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M14 4h6v6M20 4l-8 8M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>
+            </svg>
+          </button>
+          <div class="card-body">
+            <span class="card-tag">Performance</span>
+            <h3>Throttle — Application Performance</h3>
+            <p>
+              Improved application performance by using caching, asynchronous processing, and better
+              service design — reducing latency and increasing throughput for AI-powered features.
+            </p>
+            <div class="card-stack">
+              <span>Redis</span><span>asyncio</span><span>Node.js</span>
+              <span>Docker</span><span>AWS</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════
+     EXPERIENCE
+     ══════════════════════════════════════════════════════════ -->
+    <section class="section experience" id="experience">
+      <div class="section-head">
+        <span class="eyebrow">03 — Experience</span>
+        <h2 class="section-title">8+ years across three roles, <em>frontend to backend to AI</em>.</h2>
+      </div>
+
+      <ol class="timeline" role="list">
+
+        <li class="tl-item reveal">
+          <div class="tl-when">
+            <span class="tl-dates">May 2023 — Feb 2026</span>
+            <span class="tl-place">Langate</span>
+          </div>
+          <div class="tl-what">
+            <h3>Senior AI Engineer <em>Langate</em></h3>
+            <ul role="list">
+              <li>Architected scalable AI supporting systems for 1M+ users across enterprise and SaaS production environments.</li>
+              <li>Designed multi-model routing and orchestration systems to dynamically select LLMs based on cost, latency, and quality requirements.</li>
+              <li>Developed evaluation, benchmarking, and observability frameworks to measure model performance and production reliability.</li>
+              <li>Implemented AI safety controls including prompt injection detection, response validation, and output filtering for production systems.</li>
+              <li>Improved inference performance using caching strategies, batching, asynchronous processing, and distributed execution models.</li>
+              <li>Built AI microservices using Python, FastAPI, Node.js, Spring Boot, and .NET Core within distributed system architectures.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="tl-item reveal">
+          <div class="tl-when">
+            <span class="tl-dates">Nov 2018 — Jan 2023</span>
+            <span class="tl-place">Perficient</span>
+          </div>
+          <div class="tl-what">
+            <h3>AI Developer <em>Perficient</em></h3>
+            <ul role="list">
+              <li>Developed AI applications using Large Language Models (LLMs), integrating APIs into internal tools and customer-facing systems.</li>
+              <li>Built Retrieval-Augmented Generation (RAG) pipelines using embeddings, vector databases, and semantic search for improved response accuracy.</li>
+              <li>Created prompt templates, testing workflows, and evaluation processes to improve consistency and reliability of AI outputs.</li>
+              <li>Developed backend services and APIs using Python, FastAPI, Node.js, PostgreSQL, and Redis to support AI-driven applications.</li>
+              <li>Supported data preparation, model experimentation, and performance tuning to improve inference quality and system behavior.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="tl-item reveal">
+          <div class="tl-when">
+            <span class="tl-dates">Apr 2016 — Nov 2018</span>
+            <span class="tl-place">Upwork</span>
+          </div>
+          <div class="tl-what">
+            <h3>Freelance Full-Stack Engineer <em>Upwork (MERN / Python / WordPress)</em></h3>
+            <ul role="list">
+              <li>Built web applications using MongoDB, Express.js, React, and Node.js.</li>
+              <li>Developed REST APIs and backend services using Node.js and Python.</li>
+              <li>Built frontend features with React, JavaScript, HTML, and CSS.</li>
+              <li>Developed and customized WordPress websites, themes, and plugins.</li>
+              <li>Integrated third-party APIs and services into web applications and WordPress sites.</li>
+              <li>Worked directly with clients to understand requirements, deliver projects, and provide ongoing technical support.</li>
+            </ul>
+          </div>
+        </li>
+
+      </ol>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════
+     STACK
+     ══════════════════════════════════════════════════════════ -->
+    <section class="section stack" id="stack">
+      <div class="section-head">
+        <span class="eyebrow">04 — Technical Skills</span>
+        <h2 class="section-title">The tools I work with.</h2>
+      </div>
+
+      <div class="stack-grid">
+
+        <div class="stack-col reveal">
+          <h3>AI Engineering</h3>
+          <ul role="list">
+            <li>Large Language Models (LLMs)</li>
+            <li>Multi-Model Routing &amp; Orchestration</li>
+            <li>RAG Pipelines &amp; Semantic Search</li>
+            <li>Prompt Engineering &amp; Evaluation</li>
+            <li>AI Safety &amp; Output Filtering</li>
+            <li>Observability &amp; Benchmarking</li>
+          </ul>
+        </div>
+
+        <div class="stack-col reveal">
+          <h3>Backend</h3>
+          <ul role="list">
+            <li>Python · FastAPI · Django REST</li>
+            <li>Node.js · Express.js · NestJS</li>
+            <li>Java · Spring Boot</li>
+            <li>.NET Core</li>
+            <li>REST APIs · WebSockets</li>
+            <li>Microservices · Event-Driven</li>
+          </ul>
+        </div>
+
+        <div class="stack-col reveal">
+          <h3>Frontend</h3>
+          <ul role="list">
+            <li>React.js · Next.js</li>
+            <li>Angular</li>
+            <li>TypeScript · JavaScript</li>
+            <li>HTML5 &amp; CSS3</li>
+            <li>Tailwind CSS</li>
+            <li>WordPress</li>
+          </ul>
+        </div>
+
+        <div class="stack-col reveal">
+          <h3>Cloud &amp; DevOps</h3>
+          <ul role="list">
+            <li>AWS</li>
+            <li>Docker · Kubernetes</li>
+            <li>CI/CD · GitHub Actions</li>
+            <li>Distributed Execution</li>
+            <li>Async &amp; Batch Processing</li>
+          </ul>
+        </div>
+
+        <div class="stack-col reveal">
+          <h3>Data &amp; Storage</h3>
+          <ul role="list">
+            <li>PostgreSQL · MySQL · JDBC</li>
+            <li>MongoDB · Redis</li>
+            <li>Vector Databases</li>
+            <li>Data Modeling</li>
+            <li>Transaction Management</li>
+          </ul>
+        </div>
+
+        <div class="stack-col reveal">
+          <h3>Engineering</h3>
+          <ul role="list">
+            <li>System Design &amp; Architecture</li>
+            <li>Performance Optimisation</li>
+            <li>API Contract Testing</li>
+            <li>Input Validation &amp; Auth</li>
+            <li>Code Review &amp; Debugging</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Education sits below the grid -->
+      <div class="stack-edu-block reveal">
+        <h3>Education</h3>
+        <p class="edu-school">Wichita State University</p>
+        <p class="edu-degree">Bachelor's Degree in Computer Science</p>
+        <p class="edu-meta">Apr 2015 — Sep 2018 · Wichita, Kansas, United States</p>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════
+     CONTACT
+     ══════════════════════════════════════════════════════════ -->
+    <section class="section contact" id="contact">
+      <div class="contact-inner reveal">
+        <span class="eyebrow">05 — Contact</span>
+        <h2 class="contact-title">Let's build something together.</h2>
+        <p class="contact-sub">
+          Open to senior AI engineering roles, as well as engagements on multi-model
+          orchestration, RAG pipelines, AI safety, and distributed backend systems.
+        </p>
+
+        <a class="contact-mail" href="mailto:Goodnewsbrother7@gmail.com">
+          Goodnewsbrother7@gmail.com
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+        </a>
+
+        <div class="contact-links">
+
+          <!-- Gmail -->
+          <a class="contact-link-item" href="mailto:Goodnewsbrother7@gmail.com" aria-label="Email Jaheem">
+            <span class="contact-link-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="24" height="24" rx="6" fill="rgba(94,234,212,0.10)"/>
+                <path d="M4 7.5C4 6.67 4.67 6 5.5 6h13C19.33 6 20 6.67 20 7.5v9c0 .83-.67 1.5-1.5 1.5h-13C4.67 18 4 17.33 4 16.5v-9Z" stroke="rgba(255,255,255,0.35)" stroke-width="1.2" fill="none"/>
+                <path d="M4 8l8 5.5L20 8" stroke="#5eead4" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </span>
+            <span class="contact-link-label">Goodnewsbrother7@gmail.com</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year">2026</span> Jaheem Pickens — Senior AI Engineer</span>
+    <span class="footer-loc">Available for new opportunities</span>
+  </footer>
+
+  <script src="js/intro.js"></script>
+  <script src="js/product.js"></script>
+  <script src="js/shots.js"></script>
+  <script src="js/systems.js"></script>
+  <script src="js/spotlight.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
